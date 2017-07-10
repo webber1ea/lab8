@@ -1,0 +1,61 @@
+
+body{
+    background: url(blackNwhitebackground.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+
+
+h1 {
+  font-family: Century Gothic;
+  text-align: center;
+  font-size: 60px;
+}
+
+#inputForm {
+  font-family: Century Gothic;
+  border: 1px solid black;
+  width: 600px;
+  height: 500px;
+  float: left;
+  padding: 10px;
+  background-color: lightgrey;
+}
+
+p {
+  font-family: Century Gothic;
+  font-size: 20px;
+}
+
+.lft-container {
+  padding: auto;
+  float: left;
+}
+
+.right-container {
+  float: right;
+  font-family: Century Gothic;
+  border: 1px solid black;
+  width: 600px;
+  height: 500px;
+  float: right;
+  padding: 10px;
+  background-color: lightgrey;
+}
+
+table {
+  font-family: Century Gothic;
+  border-collapse: collapse;
+  width: 100%;
+}
+td,th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background color: white;
+}

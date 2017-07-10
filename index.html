@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<html lang="en">
+  <head>
+    <mega charset="utf-8">
+    <title>Grocery List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+  <body>
+    <div class="lft-container">
+      <form id="inputForm">
+      <h1>Em's Grocery Shop!</h1>
+          <p>Food:</p>
+          <input type="text" placeholder="Food Product" name="food"  id="foodName">
+          <p>Price:</p>
+          <input type="number" placeholder="Food Price" name="price" id="foodPrice">
+        </br>
+        </br>
+        <button type="button" onclick="addTo()">Add to Cart</button>
+        <button type="button" onclick="deleteFrom()">Remove from Cart</button>
+      </form>
+    </div>
+    <div class="right-container">
+      <div id='shoppingCart'>
+        <table id='shoppingCartTable'>
+          <tr>
+            <td>item</td>
+            <td>value</td>
+          </tr>
+        </table>
+      </div>
+      Subtotal:
+      <div id ='total'></div>
+      Tax
+      <div id ='taxAmount'></div>
+      Total
+      <div id = 'grandTotal'></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
